@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = GigaDroid
+title = GigaCriptoDroid
 
 # (str) Package name
-package.name = sampleapk
+package.name = gigacripto
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.novfensec
@@ -16,7 +16,7 @@ source.dir = .
 source.include_exts = 
 
 # (list) List of inclusions using pattern matching
-source.include_patterns = images/*.jpg
+source.include_patterns = *.jpg
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec
@@ -44,10 +44,10 @@ requirements = python3,kivy==2.1.0,kivymd==0.104.2,pillow==8.3.1
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/images/cadeado.jpg
+presplash.filename = %(source.dir)s/cadeado.jpg
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/images/favicon.png
+icon.filename = %(source.dir)s/cadeado.jpg
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
