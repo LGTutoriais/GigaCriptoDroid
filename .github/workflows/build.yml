@@ -20,7 +20,7 @@ jobs:
       - name: apt update
         id: update
         run: |
-          sudo apt-get update && sudo apt-get install build-essential && sudo apt-get install libstdc++6 && sudo apt-get install aidl
+          sudo apt-get update && pip3 install --user --upgrade buildozer && sudo apt-get install build-essential && sudo apt-get install libstdc++6 && sudo apt-get install aidl
         shell: bash
 
       - name: Cache Buildozer global directory
