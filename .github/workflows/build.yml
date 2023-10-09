@@ -32,6 +32,10 @@ jobs:
         uses: ArtemSBulgakov/buildozer-action@v1
         id: buildozer
         with:
+          command: sudo apt-get update
+          command: sudo apt-get install build-essential
+          command: sudo apt-get install aidl
+          command: sudo apt-get install libstdc++6
           command: buildozer android debug
           buildozer_version: master
 
